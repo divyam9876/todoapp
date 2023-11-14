@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="/images/todoimg.jpg" type="image/icon">
+</head>
+<body>
+    <div class="todobody">
+        <header class="todo">
+            <nav>
+                <a href="registration.html">Register</a> |
+                <a href="login.html">Login</a> |
+                <a href="todo.html">ToDo</a> 
+            </nav>
+        </header>
+        <br>
+        <div class="tododiv">   
+            <form id="todoform"> 
+                <div class="todoform">
+                    <label for="note">Task</label>
+                    <input type="text" placeholder="Add task here" id="note" required>
+                    <br>
+                    <button type="submit" value="Addtask" class="submitbtn">Add task</button>
+
+                    <!-- <label class="label">Todo:</label> -->
+                    <!-- <div class="todotextarea">
+                        <textarea rows="5" cols="15"  type="text" placeholder="Add a todo here..."></textarea>
+                    </div> -->
+                </div>
+            </form> 
+        </div>
+    </div>
+    <ul id="todoList"></ul>
+    <script src="Scripts/todo.js"></script>
+</body>
+</html>
